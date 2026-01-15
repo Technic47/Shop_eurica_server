@@ -1,4 +1,4 @@
-package ru.kuznetsov.shop.eurica;
+package ru.kuznetsov.shop.eureka;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

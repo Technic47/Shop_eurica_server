@@ -10,10 +10,10 @@
     </parent>
 
     <groupId>ru.kuznetsov.shop</groupId>
-    <artifactId>eurica</artifactId>
+    <artifactId>eureka</artifactId>
     <version>0.1.0</version>
-    <name>Eurica_server</name>
-    <description>Eurica_server</description>
+    <name>Eureka_server</name>
+    <description>Eureka_server</description>
 
     <properties>
         <skipTests>true</skipTests>
@@ -52,7 +52,7 @@
     <build>
         <plugins>
         </plugins>
-        <finalName>Eurica_server</finalName>
+        <finalName>Eureka_server</finalName>
     </build>
 
 </project>
