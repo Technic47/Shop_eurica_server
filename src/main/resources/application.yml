@@ -13,4 +13,4 @@ eureka:
       defaultZone: http://${EURICA_HOST_NAME}:${EURICA_PORT}/eureca/
 
 server:
-  port: 8761
+  port: ${EURICA_PORT}

@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  eureka_server:
+    env_file:
+      - "../.env"
+    build:
+      context: .
+    container_name: eureka_server
+    restart: always
+    ports:
+      - "8761:8761"
+    environment:
+      SERVICE_PORT: 8761
+
